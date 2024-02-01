@@ -6,7 +6,7 @@
     - Launch the application through following URL - http://IP-ADDRESS:8081/
 
 ### Docker and Microservices
-**Objective:** To assess the candidate’s ability to work with Docker and microservices architecture.
+**Objective:** work with Docker and microservices architecture.
 
 ** Description:**
 - To Containerize the application first thing to checkout the code from source code repo. In my case I have used curl command to get the zip file and unzip the file in one of my EC2 ubuntu server created in AWS.
@@ -19,16 +19,18 @@ the container script.
 - Installed and updated composer.I performed docker-compose up --build to build the entire application. Running php artisan test for testing.
 - Please check the repo link shared in above IMPORTANT point.
 
-### Test assignment B: Continuous Integration/Continuous Deployment (CI/CD)
+### Continuous Integration/Continuous Deployment (CI/CD)
+**Objective:** work with Jenkins CI CD Pipelines
 
-**Task Description:** 
+** Description:** 
 - Created a CI/CD pipeline using a tool like Jenkins(The pipeline stages for building, testing, and deploying the application in localhost).
 - Steps to perform CI CD Pipeline, Installed Jenkins in the commandline by appending the Debian package repository, install using apt package. Installed required plugins in Jenkins configuration. Created Jenkins pipeline which includes multiple stages for Verify Tooling, Clear All Running Docker Containers, Build, Test and Deploy.
 - Please check the Jenkinsfile created for the CI CD in the above mentioned Github url.
 
-### Test assignment C: Deployment to a Cloud or Server Environment
+### Deployment to a Cloud or Server Environment
+**Objective:** work with Kubernetes clusters
 
-**Task Description:**
+** Description:**
 - Extended te CI/CD pipeline to include a deployment stage that automatically deploys the application to a cloud provider (AWS EKS) 
 - Created EKS cluster which includes all the networks, security congurations inbuilt and it provides highly available and sclable cluster.
 - Implemented monitoring and logging for the Laravel application using Prometheus and Grafana.
