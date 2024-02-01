@@ -1,14 +1,14 @@
 # System Admin / DevOps Engineer
 
 ## IMPORTANT:
-    - Working URL of the app that can be accessible online - http://3.92.199.21:8081/
+    - Working URL of the app that can be accessible online - http://IP-ADDRESS:8081/
     - Upload the project to your own repo and send us the link - https://github.com/RajalakshmiNagendran/laravel-CICD
-    - Launch the application through following URL - http://3.92.199.21:8081/
+    - Launch the application through following URL - http://IP-ADDRESS:8081/
 
-### Test assignment A: Docker and Microservices
+### Docker and Microservices
 **Objective:** To assess the candidate’s ability to work with Docker and microservices architecture.
 
-**Task Description:**
+** Description:**
 - To Containerize the application first thing to checkout the code from source code repo. In my case I have used curl command to get the zip file and unzip the file in one of my EC2 ubuntu server created in AWS.
 - I checked the existing docker-compose.yml and found the build context for laravel.test was already pointing to ./vendor/laravel/sail/runtimes/8.3. I have added composer service which requ
 ires to build the app.
