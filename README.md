@@ -1,4 +1,4 @@
-# System Admin / DevOps Engineer Test
+# System Admin / DevOps Engineer
 
 ## IMPORTANT:
     - Working URL of the app that can be accessible online - http://3.92.199.21:8081/
